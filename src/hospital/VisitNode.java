@@ -7,7 +7,7 @@ public class VisitNode {
 
     public VisitNode(PatientVisit visitData) {
         this.visitDate = visitData;
-        this.next = null; //null node created it not pointing anything yet
+        this.next = null; //null node created
 
     }
 }
