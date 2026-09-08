@@ -1,8 +1,8 @@
 package hospital;
 
 public class EmergencyPatient {
-    private String name;
-    private String condition;
+    private final String name;
+    private final String condition;
 
     public EmergencyPatient(String name, String condition) {
         this.name = name;

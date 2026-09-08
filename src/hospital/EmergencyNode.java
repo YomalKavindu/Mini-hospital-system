@@ -1,11 +1,11 @@
 package hospital;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+public class EmergencyNode {
+    public EmergencyPatient data;
+    public EmergencyNode next; // Points to the next person in line
 
-
-class EmergencyNode {
-
+    public EmergencyNode(EmergencyPatient data) {
+        this.data = data;
+        this.next = null;
+    }
 }
